@@ -115,7 +115,8 @@ ul {
 
 .staff__cards {
   max-width: 760px;
-  margin: auto;
+  list-style-type: none;
+  margin: 68px auto 0px;
   display: flex;
   gap: 40px;
   flex-wrap: wrap;
@@ -128,7 +129,6 @@ ul {
   box-sizing: border-box;
   height: 420px;
   width: 360px;
-  list-style-type: none;
 }
 
 .card__content {
