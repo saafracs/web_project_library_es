@@ -313,7 +313,7 @@ ul {
 }
 
 .step {
-  max-width: 220px;
+  flex-basis: 220px;
 }
 
 .step__title {
@@ -334,7 +334,7 @@ ul {
 }
 
 .footer {
-  background-color: black;
+  background-color: #1f1f1f;
   color: white;
   box-sizing: border-box;
   padding: 60px 80px;
@@ -374,12 +374,14 @@ ul {
 }
 
 .footer__column-link {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
   color: white;
   text-decoration: none;
 }
 
 .footer__social-icon {
-  margin-right: 10px;
   width: 16px;
   height: 16px;
 }
